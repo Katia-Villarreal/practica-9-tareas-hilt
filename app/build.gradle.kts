@@ -41,4 +41,5 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.lifecycle.viewmodel.compose)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
 }
